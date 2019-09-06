@@ -11,7 +11,6 @@ body {
 header {
 	display:flex;
 	justify-content:space-between;
-	
 	height:60px;
 	
 }
@@ -38,16 +37,32 @@ a:hover {
 	
 }
 .hero-content ::before {
-	content:'rame';
+	content:'';
 	display:block;
 	position:absolute;
 	top:60px;
 	bottom:0;
 	left:0;
-	right:0
-	background -color:;
+	right:0;
+	background-color: rgba(24, 24, 24, 0.06);
+	opacity: .6;
+	z-index: -1;
 
 }
+
+
+
+h1 {
+	color: #FFF;
+
+}
+p{
+	color: #FFF;
+}
+.scroll,.scroll_down{
+	color:  #FFF;
+}
+
 
 }
 .hero - text {
@@ -59,7 +74,7 @@ a:hover {
 	position:absolute;
 	z-index: -2;
 	width:100%;
-	height: calc (100vh - 60px);
+	height: calc(100vh - 60px);
 	top:60px;
 	left:0;
 	object-fit: cover;
